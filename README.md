@@ -4,8 +4,10 @@
 
 ### From TCGA-LUAD RNA-seq to an annotated biomarker heatmap
 
-An exploratory, end-to-end Bioconductor workflow comparing Stage I and Stage IV
-lung adenocarcinoma samples—from GDC retrieval to a browser-ready clinical report.
+This project compares gene activity in RNA-sequencing data from early-stage
+(Stage I) and advanced-stage (Stage IV) lung cancer samples. It highlights genes
+that differ between the groups and presents the findings in a heatmap and a
+browser-ready report.
 
 [![Explore the clinical report](https://img.shields.io/badge/Explore-Clinical%20Report-7c3aed?style=for-the-badge&logo=quarto&logoColor=white)](https://ranakgit.github.io/OncoBiomarkerR/)
 [![R](https://img.shields.io/badge/R-4.5-276DC3?style=flat-square&logo=r&logoColor=white)](https://www.r-project.org/)
