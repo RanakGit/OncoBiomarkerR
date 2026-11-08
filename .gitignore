@@ -1,0 +1,19 @@
+# Ignore raw data and serialized R objects
+data/
+GDCdata/
+*.rds
+*.RData
+*.Rhistory
+
+# Ignore generated report intermediates and duplicate HTML output
+analysis/clinical_report.html
+analysis/clinical_report.knit.md
+Rplots.pdf
+
+# Ignore Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# Ignore local renv library cache
+renv/library/
+renv/staging/

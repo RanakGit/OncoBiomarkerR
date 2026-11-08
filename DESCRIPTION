@@ -1,0 +1,10 @@
+Package: OncoBiomarkerR
+Title: Transcriptomic and Mutational Drug-Response Stratification Pipeline
+Version: 1.0.0
+Authors@R: person("Ranak", "Halder", email = "your.email@domain.com", role = c("aut", "cre"))
+Description: An end-to-end Bioconductor pipeline to ingest clinical RNA-seq data,
+    perform batch-corrected differential expression using DESeq2, and identify
+    therapeutic resistance biomarkers via GenomicRanges and ComplexHeatmap.
+License: MIT
+Encoding: UTF-8
+LazyData: true
